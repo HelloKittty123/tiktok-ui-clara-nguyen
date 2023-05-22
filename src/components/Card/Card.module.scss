@@ -1,0 +1,37 @@
+.card {
+    max-width: 692px;
+
+    .image-wrap {
+        padding: 6px 16px;
+        display: flex;
+        align-items: flex-end;
+        column-gap: 20px;
+        .card-image {
+            object-fit: cover;
+            width: 280px;
+            height: 480px;
+            border-radius: 10px;
+        }
+
+        .icon-wrapper {
+            display: flex;
+            flex-direction: column;
+            row-gap: 15px;
+
+            .icon-item {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                background-color: #f1f1f2;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .card-icon {
+                    width: 22px;
+                    height: 22px;
+                }
+            }
+        }
+    }
+}
